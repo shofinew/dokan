@@ -26,8 +26,8 @@ $con = mysqli_connect("localhost", "root", "", "dokan");
       
       ?>
 <form action="addcategory.php" method="GET">
-      <input type="text" name="cname">
-      <input type="date" name="cdate">
+      <input type="text" name="cname"><br>
+      <input type="date" name="cdate"><br>
       <input type="submit" value="submit">
 </form>
       
